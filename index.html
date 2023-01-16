@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>lofizando</title>
+  <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <iframe id="playlist" width="0" title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+  <div id="casa">
+    <div id="adblock-box" class="abl">
+      <img id="adblock-imagem" src="./image/adblock.png" width="350px">
+      <p>AVISO! para ouvir os nossos lo-fi <br>sem propagandas, <b>ATIVE O ADBLOCK</b></p>
+      <button onClick="fecharAdblock()" id="btn">JA ATIVEI O ADBLOCK</button>
+    </div>
+    <div id="quarto">
+      <div id="parede1" class="abl"></div>
+      <div id="chao" class="abl"></div>
+      <div id="janela-box" class="abl">
+        <div id="chuva" class="abl">
+          <img src="https://magenta.github.io/lofi-player/assets/background/rain-0.gif" id="paisagens" width="455px"
+            height="205px">
+        </div>
+        <div id="janela" class="abl">
+          <img src="./image/window-0.png" width="550px" height="250">
+        </div>
+      </div>
+      <div id="janela-box-invisivel" onClick="trocaPaisagem()" class="abl"></div>
+      <div id="cadeira" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/chair-red.png" width="150px">
+      </div>
+      <div id="mesa" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/desk.png" width="350px" height="150">
+      </div>
+      <div id="lampada" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/lamp-on.png" width="70px">
+      </div>
+      <div id="canetas" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/pens.png" width="35px" height="80px">
+      </div>
+      <div id="livros" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/shelf.png" width="150px" height="80px">
+      </div>
+      <div id="livros2" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/shelf.png" width="150px" height="80px">
+      </div>
+      <div id="sofa" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/sofa-1.png" width="400px" height="180px">
+      </div>
+      <div id="gabinete" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/cabinet-2.png" width="100px">
+      </div>
+      <div id="guitarra" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/electric-guitar.png" width="90px" height="200px">
+      </div>
+      <div id="flor-box" class="abl">
+        <div id="apoio" class="abl">
+          <img src="https://magenta.github.io/lofi-player/assets/shelf-blank-2.png" width="150px" height="50px">
+        </div>
+        <div id="flor1" class="abl">
+          <img src="https://magenta.github.io/lofi-player/assets/vine-2.png" width="100px" height="100px">
+        </div>
+        <div id="flor2" class="abl">
+          <img src="https://magenta.github.io/lofi-player/assets/vine-4.png" width="100px" height="100px">
+        </div>
+      </div>
+      <div id="piano" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/piano.png" width="150px" height="45px">
+      </div>
+      <div id="sintetizador" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/synth.png" width="150px" height="45px">
+      </div>
+      <div id="relogio" class="abl">
+      </div>
+      <div id="girl1" class="abl">
+        <img src="./image/girl.png" width="400px">
+      </div>
+      <div id="gato" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/cat-75-purple.gif" width="100">
+      </div>
+      <div id="luz" class="abl">
+        <img src="https://magenta.github.io/lofi-player/assets/light-on.png" width="100px">
+      </div>
+      <div id="lousa-box" class="abl">
+        <div id="player-text">textAFASFDASFASFA AFASF AFA A</div>
+        <div id="player-action">
+          <button onClick="playBack()" class="button" id="play-back">|◀</button>
+          <button onClick="playPause()" class="button" id="pause-play">||</button>
+          <button onClick="playNext()" class="button" id="play-next">▶|</button>
+        </div>
+      </div>
+    </div><!-- quarto-->
+  </div>
+
+  <script type="text/javascript" src="js/relogio.js"></script>
+
+</body>
+
+</html>

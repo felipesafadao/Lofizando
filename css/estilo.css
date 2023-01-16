@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+
+.abl {
+  position: absolute;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: deeppink;
+  user-select: none;
+}
+
+#casa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quarto {
+  position: relative;
+  background-color:#43364F;
+  height: 700px;
+  width: 80%;
+  border: 10px solid darkblue;
+  min-width: 1500px;
+}
+
+#parede1 {
+  background-color: #201E21;
+  right: 0;
+  top: 0;
+  height: 620px;
+  width: 90px;
+}
+#chao {
+  background-color:#0C0C0D;
+  right: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+
+#janela-box {
+  left: 300px;
+  top:  210px;
+}
+
+#janela-box-invisivel {
+
+  z-index:  50;
+  left: 300px;
+  top:  210px;
+  width: 550px;
+  height: 250px;
+}
+
+
+#janela {
+  z-index: 2;
+}
+#chuva {
+  z-index: 1;
+  left: 55px;
+  top: 10px;
+
+}
+
+#cadeira {
+  z-index: 2;
+  bottom: 20px;
+  left: 150px;
+}
+
+#mesa {
+  z-index: 11;
+  bottom: 20px;
+  left: 30px;
+}
+
+#lampada {
+  z-index: 3;
+  bottom: 170px;
+  left: 130px;
+}
+
+#canetas {
+  z-index: 3;
+  bottom: 170px;
+  left: 230px;
+}
+
+#livros {
+  top: 210px;
+  left: 50px;
+}
+
+#livros2 {
+  top: 210px;
+  left: 130px;
+}
+
+#sofa {
+  z-index: 2;
+  right: 130px;
+  bottom: 35px;
+}
+
+#gabinete {
+  z-index: 1;
+  right: 500px;
+  bottom: 50px;
+  }
+
+  #guitarra {
+    right: 200px;
+    top: 150px;
+  }
+  
+  #flor-box {
+    right: 500px;
+    top: 250px;
+  }
+
+  #flor1 {
+    left: 60px;
+    top:-5px;
+  }
+
+  #apoio {
+    top: 60px;
+  }
+
+  #piano {
+    bottom: 215px;
+    right: 250px;
+  }
+
+  #sintetizador {
+    right: 300px;
+    bottom: 115px;
+    z-index: 3;
+  }
+
+  #relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 504px;
+    bottom: 204px;
+    background-image: url(https://magenta.github.io/lofi-player/assets/clock-3.png);
+    background-size: contain;
+    width: 90px;
+    height:40px;
+  }
+
+  #girl1 {
+    z-index: 10;
+    bottom: 10px;
+    left: 200px;
+  }
+
+  #gato {
+    z-index: 11;
+    left: 680px;
+    top: 355px;
+  }
+
+  #luz {
+    right: 50%;
+  }
+
+  #lousa-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 5px;
+    top: 320px;
+    height: 150px;
+    width: 300px;
+    background-image: url("https://magenta.github.io/lofi-player/assets/board.png");
+    background-size: contain;
+  }
+
+  #adblock-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 5;
+  }
+
+  #adblock-box p{
+    color: red;
+  }
+
+
+  #adblock-imagem {
+    opacity: 50%;
+  }
+  p {
+    margin-right: 10px;
+    margin-top: 4px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(195, 206, 150)
+
+  }
+
+  #btn {
+    padding: 20px;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 83, 83);
+  }
+
+  #btn:hover {
+    background-color: rgb(252, 0, 0);
+
+  }
+
+  #player-action {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .button {
+    width: 50px; height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
+  }
